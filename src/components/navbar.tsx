@@ -21,7 +21,7 @@ export default function NavBar() {
     const [menuActive, OpenMenu] = useState(false)
     console.log(menuActive)
   return (
-    <nav className="flex justify-between items-center px-4 py-3">
+    <nav className="flex justify-between items-center px-4 py-3 fixed w-full top-0 bg-white shadow-md">
         <div className="flex items-center gap-1">
             <IoIosFlash className="text-[25px] text-white bg-violet-600 rounded-full py-0.5"/>
             <h1 className="font-bold text-2xl text-gray-700"><span className="text-violet-600">Build</span>Estate</h1>

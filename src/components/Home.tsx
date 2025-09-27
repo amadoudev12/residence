@@ -24,7 +24,7 @@ const companies = [
 ]
 const Home = () => {
   return (
-    <div className="w-full px-7 mb-10">
+    <div className="w-full px-7 mt-18 mb-10">
         <section className="rounded-md bg-[url(/hero-2.jpg)] h-[70vh] bg-center bg-black flex flex-col justify-center items-center ">
             <h1 className="text-white max-sm:text-2xl mb-4 font-bold text-6xl text-center">Let's find a home <br /> that's perfect for you</h1>
             <p className="text-white max-sm:text-center ">Search confidently with your trusted source of homes for sale or rent.</p>
