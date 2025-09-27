@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .map{
+    justify-content: center;
+    gap: 10px;
+  }
+  .card{
+    display: flex;
+    align-items: center;  
+    /* justify-content: center; */
+    padding: 5px;
+    box-shadow: none;
+  }
+  .btn-top{
+    display: none;
+  }
+}
+
